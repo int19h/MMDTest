@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "TestApp", "TestApp\TestApp.pyproj", "{1A009D3E-6297-4B5B-B773-8EE8C478AE86}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestModule", "TestModule\TestModule.vcxproj", "{635FEDD1-CD8D-401C-8B3A-06A284D66CA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PythonHost", "PythonHost\PythonHost.csproj", "{4D11E6C4-600D-4593-BBB1-B2C879A8C848}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A009D3E-6297-4B5B-B773-8EE8C478AE86}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1A009D3E-6297-4B5B-B773-8EE8C478AE86}.Release|x64.ActiveCfg = Release|Any CPU
+		{635FEDD1-CD8D-401C-8B3A-06A284D66CA9}.Debug|x64.ActiveCfg = Debug|x64
+		{635FEDD1-CD8D-401C-8B3A-06A284D66CA9}.Debug|x64.Build.0 = Debug|x64
+		{635FEDD1-CD8D-401C-8B3A-06A284D66CA9}.Release|x64.ActiveCfg = Release|x64
+		{635FEDD1-CD8D-401C-8B3A-06A284D66CA9}.Release|x64.Build.0 = Release|x64
+		{4D11E6C4-600D-4593-BBB1-B2C879A8C848}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4D11E6C4-600D-4593-BBB1-B2C879A8C848}.Debug|x64.Build.0 = Debug|Any CPU
+		{4D11E6C4-600D-4593-BBB1-B2C879A8C848}.Release|x64.ActiveCfg = Release|Any CPU
+		{4D11E6C4-600D-4593-BBB1-B2C879A8C848}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1F81EE6-497E-44B6-B9D1-AB3E962B3B17}
+	EndGlobalSection
+EndGlobal
